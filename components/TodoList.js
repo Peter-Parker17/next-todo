@@ -2,6 +2,7 @@
 import { onSnapshot, collection } from "firebase/firestore"
 import { useEffect, useState } from "react"
 import { db } from "../firebase"
+import Link from "next/link"
 
 export default function TodoList (){
 
