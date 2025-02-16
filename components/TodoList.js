@@ -28,7 +28,7 @@ export default function TodoList (){
         <div>
             <h1>Todos</h1>
             <ul className="todoList">
-                {todos.map((todo) => {
+                {todos.map(todo => {
                     return (
                     <Link key={todo.id} href={"/" + todo.id} >
                     <li className="listItem">
